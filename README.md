@@ -45,20 +45,25 @@ playwright/DEMOBLAZE_AUTOMATION/
 
 ## ▶️ How to Run Tests
 
-# Install dependencies
+### Install dependencies
+```bash
 pip install pytest-playwright
 playwright install
+```
 
-# Run all tests
+### Run all tests
+```bash
 python -m pytest Tests/ -s -v --headed
-# Run specific test or # Run with headed browser (visible)
+```
+
+### Run specific test
+```bash
 python -m pytest Tests/test_home.py -s -v --headed
 python -m pytest Tests/test_login.py -s -v --headed
 python -m pytest Tests/test_cart.py -s -v --headed
 python -m pytest Tests/test_contact.py -s -v --headed
 python -m pytest Tests/test_signup.py -s -v --headed
-
-
+```
 
 ## 📸 Screenshots
 Test execution screenshots are saved in the `screenshots/` folder.
