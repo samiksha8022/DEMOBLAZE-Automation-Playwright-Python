@@ -12,7 +12,9 @@ using Playwright and Pytest framework.
 - Page Object Model (POM) Design Pattern
 
 ## 📁 Project Structure
-playwright/DEMOBLAZE_AUTOMATION/
+
+```
+DEMOBLAZE_AUTOMATION/
 │
 ├── Pages/
 │   ├── cart_page.py
@@ -35,6 +37,7 @@ playwright/DEMOBLAZE_AUTOMATION/
 │   └── test_data.py
 │
 └── screenshots/
+```
 
 ## ✅ Test Cases Covered
 - 🔐 Login Testing (Valid & Invalid)
