@@ -52,10 +52,11 @@ jobs:
             screenshots_4/
           if-no-files-found: ignore
 
+    
       - name: Upload Test Results
+        uses: actions/upload-artifact@v4
         if: always()
-        uses: actions/upload-artifact@v4.6.2
         with:
           name: test-results
-          path: test-results.txt
-          if-no-files-found: ignore
+          path: test-results/
+          retention-days: 30
